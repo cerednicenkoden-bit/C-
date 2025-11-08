@@ -4,9 +4,9 @@ namespace DeliverySystem;
 
 public class Vehicle
 {
-    protected string brand;       // марка транспортного засобу
-    protected int year;           // рік випуску
-    protected double mileage;     // пробіг (км)
+    protected string brand;
+    protected int year;
+    protected double mileage;
     protected double maxSpeed;
 
     public Vehicle(string brand, int year, double mileage, double maxSpeed)
